@@ -19,12 +19,13 @@ Me encanta la bash!!
 ```
 Y `file2.txt` debe permanecer vacío.
 
+```
 mkdir foo/
 mkdir -p foo/dummy foo/empty
 cd foo/dummy
 echo 'Me encanta la bash!!' > file1.txt
 touch file2.txt
-
+```
 
 ### 2. Mediante comandos de bash, vuelca el contenido de file1.txt a file2.txt y mueve file2.txt a la carpeta empty
 
