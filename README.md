@@ -44,6 +44,11 @@ Donde `file1.txt` y `file2.txt` deben contener el siguiente texto:
 ```bash
 Me encanta la bash!!
 ```
+```bash
+cat file1.txt > file2.txt
+mv file2.txt ../empty
+
+```
 
 ### 3. Crear un script de bash que agrupe los pasos de los ejercicios anteriores y además permita establecer el texto de file1.txt alimentándose como parámetro al invocarlo
 
