@@ -1,4 +1,9 @@
 #/bin/bash
+if [ "$#" -ne 1 ]; then
+   echo "Uso: $0 <palabra>"
+   exit 1
+fi
+
 param="$1"
 
 if [ -d foo/ ]; then
